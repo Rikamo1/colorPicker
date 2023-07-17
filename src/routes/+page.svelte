@@ -3,7 +3,7 @@
   import UI_light from "./../components/ui_light.svelte"
   import {generateColor} from "./../javascript/generateColor.js"
 
-  let color = {}
+  let color = {"hex": " ", "isLight": false,}
 
 
   function changeColor() {
